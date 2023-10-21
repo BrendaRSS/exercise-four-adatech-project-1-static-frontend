@@ -103,20 +103,67 @@ header h1{
 
 .aside-details{
     display: inline-block;
-    width: 30vw;
+    width: 25vw;
     height: 500px;
-    background-color: #ffcab1;
+    /* background-color: #ffcab1; */
+    margin-left: 10px;
     padding: 20px 10px;
     text-align: center;
     position: absolute;
     top: 405px;
 }
 
+.aside-details h3{
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgb(190, 114, 0);
+}
+
 .line{
     width: 300px;
     height: 1px;
-    background-color: rgb(148, 148, 148);
+    background-color: rgb(190, 114, 0);
     margin: 5px auto;
+}
+
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(255, 238, 139);
+    border-style: solid; 
+    border-width: 0 0 0 5px;
+    border-color: rgb(190, 114, 0);
+}
+
+.contacts:hover{
+    background-color: #c0c0c0;
+    border-color: rgb(128, 4, 0);
+}
+
+.icon-contacts{
+    font-size: 18px;
+}
+
+.icon-insta{
+    color: rgb(191, 51, 196);
+}
+
+.icon-wpp{
+    color: green;
+}
+
+.icon-email{
+    color: #04173b;
+}
+
+.contacts p a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
 }
 
 .main{
