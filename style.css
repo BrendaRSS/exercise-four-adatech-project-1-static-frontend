@@ -225,8 +225,74 @@ header h1{
 }
 
 .about-us{
-    width: 80vw;
     height: 400px;
-    background-color: yellow;
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border: 1px solid rgb(196, 196, 196);
+    box-shadow: 10px 8px 13px -3px rgba(156,156,156,1);
+}
+
+.about-us, .curiosities{
     margin: 30px auto;
+    width: 80vw;
+    min-height: 400px;
+}
+
+.img-text-about-us{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+}
+
+.img-text-about-us h2{
+    margin-bottom: 20px;
+}
+
+.img-about-us{
+    width: 350px;
+    height: 380px;
+    object-fit: cover;
+}
+
+.curiosities{
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid rgb(196, 196, 196);
+    box-shadow: 9px 8px 16px -3px rgba(156,156,156,1);
+}
+
+.article-curiosities{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cake-red-velvet{
+    width: 300px;
+    object-fit: cover;
+}
+
+.text-red-velvet{
+    height: 280px;
+    margin-left: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.text-red-velvet h3{
+    margin-bottom: 25px;
 }
