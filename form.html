@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style-form.css" />
+    <title>Agendamento</title>
+  </head>
+  <body>
+    <main class="main-form">
+      <span class="back"><a href="./index.html">Voltar</a></span>
+      <section class="section-container">
+        <article class="schedule">
+          <h2>PROMOÇÃO DA SEMANA</h2>
+
+          <table class="salle">
+            <thead>
+              <tr>
+                <th></th>
+                <th>DOM</th>
+                <th>SEG</th>
+                <th>TER</th>
+                <th>QUA</th>
+                <th>QUI</th>
+                <th>SEX</th>
+                <th>SAB</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>50% OFF</th>
+                <td>Bolo vulcão dueto</td>
+                <td>Bolo Red Velvet</td>
+                <td>Kit festa básico</td>
+                <td>Bolo morango</td>
+                <td>Bolo formigueiro</td>
+                <td>Bolo chocolate</td>
+                <td>Bolo vulcão limão</td>
+              </tr>
+            </tbody>
+            <tfoot></tfoot>
+          </table>
+        </article>
+        <article class="form">
+          <h2>FAÇA SEU PEDIDO</h2>
+
+          <div class="order-form">
+            <form action="#" method="post">
+              <div class="input-box form-name">
+                <input type="text" id="name" name="name" required class="input" />
+                <label for="name">Nome Completo</label>
+              </div>
+
+              <div class="input-box form-email">
+                <input type="email" id="email" name="email" required class="input" />
+                <label for="email">E-mail</label>
+              </div>
+
+               <div class="input-box form-cake">
+                <input type="text" id="cake" name="cake" required class="input" />
+                <label for="cake">Tipo de bolo</label>
+              </div>
+
+              <div class="input-box form-kg">
+                <input type="text" id="kg" name="kg" required class="input" />
+                <label for="kg">Kg do bolo</label>
+              </div>
+
+              <div class="button-submit">
+                <button type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
