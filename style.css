@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -224,6 +228,13 @@ header h1{
     font-weight: 700;
 }
 
+.about-us-and-curiosities{
+    background-color: rgb(217 248 158);
+    width: 100vw;
+    height: auto;
+    padding: 20px 0;
+}
+
 .about-us{
     height: 400px;
     display: flex;
@@ -231,13 +242,14 @@ header h1{
     align-items: center;
     padding: 10px 10px;
     border: 1px solid rgb(196, 196, 196);
-    box-shadow: 10px 8px 13px -3px rgba(156,156,156,1);
+    box-shadow: 10px 8px 13px -3px rgb(2, 2, 2);
 }
 
 .about-us, .curiosities{
     margin: 30px auto;
     width: 80vw;
     min-height: 400px;
+    background-color: #ffffff;
 }
 
 .img-text-about-us{
@@ -265,8 +277,8 @@ header h1{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border: 1px solid rgb(196, 196, 196);
-    box-shadow: 9px 8px 16px -3px rgba(156,156,156,1);
+    border: 1px solid rgb(112, 112, 112);
+    box-shadow: 9px 8px 16px -3px rgb(0, 0, 0);
 }
 
 .article-curiosities{
@@ -295,4 +307,68 @@ header h1{
 
 .text-red-velvet h3{
     margin-bottom: 25px;
+}
+
+footer{
+    width: 100vw;
+    height: 200px;
+    background: linear-gradient(rgb(217 248 158), #8bc34a);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .links a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer .links p{
+    color: #6b0000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer .links .direitos{
+    font-size: 15px;
+    color: #000000;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+footer .button-footer{
+    width: 80px;
+    height: 80px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    border: 1px solid #4CAF50;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+footer .button-footer a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+footer .button-footer a:hover{
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+
+footer .button-footer:hover{
+    background-color: #ffffff;
+    color: #4CAF50;
 }
