@@ -1,4 +1,4 @@
-# Exercício 4 | Projeto #1: Vem Ser Tech - Front End | ADa Tech
+# Exercício 4 | Projeto #1: Vem Ser Tech - Front End | Ada Tech
 
 ## Sobe
 
