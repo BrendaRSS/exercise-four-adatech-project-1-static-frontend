@@ -2,7 +2,7 @@
 
 ## Sobe
 
-O projeto se tarta de um front end estático básico, utilizando apenas HTML5 e CSS vanilla. Esse projeto foi desenvolvido com intuito de realizar uma atividade de entrega do curso Front end, na Ada Tech. O objetivo do projeto foi o desenvolvimento de um site utilizando tags semânticas. Tendo como requisitos obrigatórios o uso da header, main, footer, aside, article, section, figure, figurecaption, table, form e nav. Além disso, tinha como objetivo adicional a navegação pela página utilizando #id.
+O projeto se trata de um front end estático básico, utilizando apenas HTML5 e CSS vanilla. Esse projeto foi desenvolvido com intuito de realizar uma atividade de entrega do curso Front end, na Ada Tech. O objetivo do projeto foi o desenvolvimento de um site utilizando tags semânticas. Tendo como requisitos obrigatórios o uso da header, main, footer, aside, article, section, figure, figurecaption, table, form e nav. Além disso, tinha como objetivo adicional a navegação pela página utilizando #id.
 
 _____
 
@@ -17,6 +17,6 @@ git@github.com:BrendaRSS/exercise-four-adatech-project-1-static-frontend.git
 ### Imagens do projeto
 <div>
     <img src="assets/foto1.png"  alt="imagem do projeto"/>
-     <img src="assets/foto2.png"  alt="imagem do projeto"/>
-      <img src="assets/foto3.png"  alt="imagem do projeto"/>
+    <img src="assets/foto2.png"  alt="imagem do projeto"/>
+    <img src="assets/foto3.png"  alt="imagem do projeto"/>
 </div>
