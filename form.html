@@ -56,18 +56,35 @@
                 <label for="email">E-mail</label>
               </div>
 
-               <div class="input-box form-cake">
-                <input type="text" id="cake" name="cake" required class="input" />
-                <label for="cake">Tipo de bolo</label>
+               <div class="form-selection form-cake">
+                <label for="idcake">Tipo de bolo</label>
+                <select name="cake" id="idcake">
+                  <option value="" selected>Escolha</option>
+                  <option value="BV">Bolo Vulcão</option>
+                  <option value="BF">Bolo de Festa</option>
+                  <option value="BC">Bolo Caseiro</option>
+                  <option value="KF">Kit Festa</option>
+                </select>
               </div>
 
-              <div class="input-box form-kg">
-                <input type="text" id="kg" name="kg" required class="input" />
-                <label for="kg">Kg do bolo</label>
+              <div class="form-selection form-kg">
+                <label for="idkg">Tipo de bolo</label>
+                <select name="kg" id="idkg">
+                  <option value="" selected>Escolha</option>
+                  <option value="BV">1.5 kg</option>
+                  <option value="BF">2.0 kg</option>
+                  <option value="BC">2.5 kg</option>
+                  <option value="KF">3.0 kg</option>
+                  <option value="KF">3.5 kg</option>
+                  <option value="KF">4.0 kg</option>
+                  <option value="KF">4.5 kg</option>
+                  <option value="KF">5.0 kg</option>
+                  
+                </select>
               </div>
 
               <div class="button-submit">
-                <button type="submit">Enviar</button>
+                <button type="submit" class="button">Enviar</button>
               </div>
             </form>
           </div>
